@@ -1,0 +1,15 @@
+.top {
+    width: 50%;
+    height: 500px;
+    background-color: red;
+    border: black 2px solid;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child1 {
+    width: 50%;
+    height: 100px;
+    background-color: blue;}
