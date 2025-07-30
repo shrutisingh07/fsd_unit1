@@ -32,7 +32,7 @@ function App() {
       ];
 
       const payload = { contents: chatHistory };
-      const apiKey = "AIzaSyDpKhAnzl4f-rD-hcclpKVUjynayfnrSPY"; // ⚠️ Do NOT expose this in production!
+      const apiKey = "AIzaSyDpKhAnzl4f-rD-hcclpKVUjynayfnrSPY";
       const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
       const response = await fetch(apiUrl, {
